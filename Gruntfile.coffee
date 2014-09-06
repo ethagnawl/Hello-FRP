@@ -38,9 +38,8 @@ module.exports = (grunt) ->
           base: "."
           keepalive: true
 
-    # Clean up artifacts
     clean:
-      output: "<%= outputDir %>"
+      js: ["src/**/*.js", "!src/**/*.coffee"]
 
     # Execute server script
     exec:
@@ -63,4 +62,4 @@ module.exports = (grunt) ->
       done()
 
   grunt.registerTask "server", ["exec:server"]
-  grunt.registerTask "build", ["coffee", "spawn_react"]
+  grunt.registerTask "build", ["coffee", "spawn_react", "clean"]

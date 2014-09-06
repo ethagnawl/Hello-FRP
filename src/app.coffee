@@ -25,7 +25,7 @@ TextField = React.createClass
             requestChange: @handleChange
         }
 
-        `<input type="text" valueLink={valueLink} />`
+        `<input type="text" placeholder="Enter URI" valueLink={valueLink} />`
 
 Output = React.createClass
 
@@ -39,7 +39,7 @@ Output = React.createClass
 
         text = @state.text
 
-        `<output>{text}</output>`
+        `<output>Encoded URI: {text}</output>`
 
 textStream = new Bacon.Bus
 
