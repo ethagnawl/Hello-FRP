@@ -1,0 +1,13 @@
+{
+  "name": "hello-frp",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-coffee": "latest",
+    "grunt-regarde": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-exec": "latest",
+    "grunt-react": "latest"
+  }
+}
