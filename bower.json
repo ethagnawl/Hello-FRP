@@ -1,0 +1,22 @@
+{
+  "name": "hello_frp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ethagnawl/Hello-FRP",
+  "authors": [
+    "Pete Doherty <pdoherty926@gmail.com>"
+  ],
+  "main": "app.coffee",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2",
+    "bacon": "~0.7.22",
+    "react": "~0.11.1"
+  }
+}
